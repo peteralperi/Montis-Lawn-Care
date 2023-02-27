@@ -1,0 +1,278 @@
+
+
+.header {
+    background-color: #173f1b;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    color: green;
+    height: 110px;
+    font-family: "Roboto Slab, serif";
+    font-size: 30px;
+    flex-direction: row;
+    z-index: 50;
+}
+
+.header-left {
+    background-color: #173f1b;
+    flex: 2;
+}
+
+.header-logo-pic {
+    width: 145px;
+    margin-left: 100px;
+    
+}
+
+.home {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    right: auto;
+    left: auto;
+}
+
+
+
+.services:active,
+.contact:active,
+.about-us:active,
+.home:active{
+    opacity: .3;
+}
+
+.about-us {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.contact {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.about-us-intro {
+    margin-top: 110px;
+    height: 400px;
+    background-image: url(monti_pics/IMG_9359.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.abus-text {
+    display: block;
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.abus-intro {
+    height: 200px;
+    width: 75%;
+    margin: auto;
+}
+
+.abus2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    
+}
+
+.workers {
+    display: flex;
+    flex-direction: column;
+    height: 1800px;
+    width: 80%;
+    margin: auto;
+}
+
+.worker {
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin: auto;
+}
+
+.worker2 {
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+    margin: auto;
+    
+}
+
+.workpic {
+    flex: 1;
+    background-color: white;
+    justify-content: center;
+}
+
+.worktext {
+    flex: 1;
+    background-color: white;
+}
+
+.jakepic {
+    width: 75%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0px 5px 10px rgba(0,0,0, .3);
+    border-radius: 15px;
+}
+
+.textabove {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 25%;
+    color: #046a38;
+    font-weight: 900;
+    text-align: center;
+}
+.jaketext {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    
+    margin-bottom: 10%;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 200px;
+    background-color: #173f1b;;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-pic {
+    flex: 1;
+}
+
+.footer-pic-info {
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.footer-text {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text-info {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-button-info {
+    flex: 1;
+}
+
+.quote-button-footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    cursor: pointer;
+    padding: 25px;
+    font-family: "Roboto Slab, serif";
+    font-size: 20px;
+    color: #046a38;
+    border-radius: 50px;
+    border: none;
+
+    transition: background-color .7s,
+        color .7s;
+        
+}
+
+.quote-button-footer:hover {
+    background-color:#046a38;
+    color: white;
+}
+
+.quote-button-footer:active {
+    opacity: .7;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: lightgreen;
+}

@@ -1,0 +1,104 @@
+
+
+.header {
+    background-color: #173f1b;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    color: green;
+    height: 110px;
+    font-family: "Roboto Slab, serif";
+    font-size: 30px;
+    flex-direction: row;
+    z-index: 50;
+}
+
+.header-left {
+    background-color: #173f1b;
+    flex: 2;
+}
+
+.header-logo-pic {
+    width: 145px;
+    margin-left: 100px;
+    
+}
+
+.home {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    right: auto;
+    left: auto;
+}
+
+
+
+.services:active,
+.contact:active,
+.about-us:active,
+.home:active{
+    opacity: .3;
+}
+
+.about-us {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.contact {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.google-form {
+    margin-top: 110px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.background-form {
+    display: flex;
+}
+
+body {
+    background-color: whitesmoke;
+}
