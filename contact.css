@@ -1,0 +1,248 @@
+.header {
+    background-color: #173f1b;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    color: green;
+    height: 110px;
+    font-family: "Roboto Slab, serif";
+    font-size: 30px;
+    flex-direction: row;
+    z-index: 50;
+}
+
+.header-left {
+    background-color: #173f1b;
+    flex: 2;
+}
+
+.header-logo-pic {
+    width: 145px;
+    margin-left: 100px;
+    
+}
+
+.home {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    right: auto;
+    left: auto;
+}
+
+
+
+.services:active,
+.contact:active,
+.about-us:active,
+.home:active{
+    opacity: .3;
+}
+
+.about-us {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.contact {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.homepage-before-footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    flex-direction: row;
+    height: 750px;
+}
+
+.before-footer-text {
+    flex: .8;
+    background-color: transparent;
+}
+
+.before-footer-pic1 {
+    background-color: transparent;
+    flex: 1;
+}
+
+.before-footer-pic2 {
+    background-color: transparent;
+    flex: 1;
+}
+
+.before-pic-info {
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 0px 5px 10px rgba(0,0,0, .3);
+}
+
+.before-text-info-top {
+    font-family: "Roboto Slab, serif";
+    font-weight: bolder;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.before-text-info-bottom {
+    font-size: 17px;
+    color: black;
+    font-family: "Roboto Slab, serif";
+    margin-right: 50px;
+    margin-left: 50px;  
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.quote-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    cursor: pointer;
+    padding: 25px;
+    font-family: "Roboto Slab, serif";
+    font-size: 20px;
+    color: #046a38;
+    border-radius: 50px;
+    border: none;
+
+    transition: background-color .7s,
+        color .7s;
+        
+}
+
+.quote-button:hover {
+    background-color:#046a38;
+    color: white;
+}
+
+.quote-button:active {
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 200px;
+    background-color: #173f1b;;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-pic {
+    flex: 1;
+}
+
+.footer-pic-info {
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.footer-text {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text-info {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-button-info {
+    flex: 1;
+}
+
+.quote-button-footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    cursor: pointer;
+    padding: 25px;
+    font-family: "Roboto Slab, serif";
+    font-size: 20px;
+    color: #046a38;
+    border-radius: 50px;
+    border: none;
+
+    transition: background-color .7s,
+        color .7s;
+        
+}
+
+.quote-button-footer:hover {
+    background-color:#046a38;
+    color: white;
+}
+
+.quote-button-footer:active {
+    opacity: .7;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: lightgreen;
+}
